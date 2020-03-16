@@ -18,11 +18,11 @@
 		</plugins>
 	</build>
 	<dependencies>
-		<!-- [OPTIONAL] only required when you need further user information (XSUserInfo) request.getUserPrincipal() -->
+		<!-- [OPTIONAL] only required when you need further user information (AccessToken) from request.getUserPrincipal() -->
 		<dependency>
-			<groupId>com.sap.cloud.security.xsuaa</groupId>
-			<artifactId>api</artifactId>
-			<version>2.5.2</version>
+			<groupId>com.sap.cloud.security</groupId>
+			<artifactId>java-api</artifactId>
+			<version>2.5.1</version>
 			<scope>provided</scope>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
